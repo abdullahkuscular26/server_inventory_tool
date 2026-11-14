@@ -209,5 +209,3 @@ def main_menu():
             print("Invalid choice, please enter a valid number between 1 and 8.")
 
 
-if __name__ == "__main__":
-    main_menu()
