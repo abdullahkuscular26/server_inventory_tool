@@ -23,7 +23,7 @@ valid_environments = ["dev", "test", "prod"]
 while True:
     environment = input(f"Enter environment ({', '.join(valid_environments)}): ").strip().lower()
     if environment in valid_environments:
-        break
+       break
     print("Error: Invalid environment! Please choose dev, test, or prod.")
 ```
 
@@ -112,7 +112,7 @@ json.dump(servers, file, indent=2, ensure_ascii=False)
 **I use CSV for exporting reports because the data is organized into rows and columns.** <br>
 
 
-CSV files can easily be opened in programs such as MS Excel, Google Sheets.<br>
+CSV files can easily be opened in programs such as MS Excel and Google Sheets.<br>
 In the `export_to_csv()` function,
 I use `csv.DictWriter()` to write the server information to the CSV file.
 
