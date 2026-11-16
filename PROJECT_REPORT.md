@@ -200,6 +200,8 @@ The `sys.exit()` function returns appropriate exit codes, for example, when a se
 ---
 - **`argparse`:** Used in `main.py` to handle command-line arguments, such as `--list`, `--check` and `--check-all`.<br>
 This allows users to run different program actions directly from the terminal.
+The `argparse` module also provides the `--help` option automatically, which displays all available command-line<br>
+arguments and their descriptions.
 ---
 - **`subprocess`:** Used in `checks.py` to run the system's native `ping` command with `subprocess.run()`.<br>
 This allows the program to check whether a server is reachable.
